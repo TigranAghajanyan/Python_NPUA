@@ -11,11 +11,11 @@ class Car(Vehicle):
         print('Color is: ',self.color)
         
 class Plane(Vehicle):
-    def __init__(self, model, year, color):
+    def __init__(self, model, color):
         super().__init__( model)
 
 class Boat(Vehicle):
-    def __init__(self, make, model, year):
+    def __init__(self, model, year):
         super().__init__( model)
 
 class RaceCar(Car):

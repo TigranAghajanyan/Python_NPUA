@@ -22,5 +22,5 @@ class RaceCar(Car):
     def __init__(self, color, model, year):
         super().__init__(color, model, year)
 
-car = Car('BMV', 2005, 'black')
+car = Car('BMW', 2005, 'black')
 car.information()
